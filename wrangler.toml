@@ -1,0 +1,18 @@
+name = "v4nty-site-api"
+main = "worker.js"
+compatibility_date = "2026-09-12"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "v4nty-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+FRONTEND_ORIGIN = "https://v4ntyTG.github.io"
+TOKEN_TTL_DAYS = "7"
+MAX_UPLOAD_MB = "8"
+GITHUB_OWNER = "v4ntyTG"
+GITHUB_REPO = "v4ntybot"
+GITHUB_BRANCH = "main"
+GITHUB_MEDIA_DIR = "media"
